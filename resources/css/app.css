@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom-select option {
+    color: black; /* Makes options black in dropdown */
+  }
+  
+  /* Keeps the selected option white after selection */
+  .custom-select {
+    color: white;
+  }
