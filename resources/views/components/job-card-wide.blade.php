@@ -2,7 +2,7 @@
 
 <x-panel class="flex gap-x-6">
     <div>
-        <x-employer-logo :employer="$job->employer" />
+        <x-employer-logo :employer="$job->employer" :width="100" />
     </div>
     <div class="flex-1 flex flex-col">
         <a href="#" class="self-start text-sm text-gray-400 transition-colors duration-300">{{ $job->employer->name }}</a>
